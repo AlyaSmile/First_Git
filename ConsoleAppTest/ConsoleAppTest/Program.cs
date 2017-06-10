@@ -27,7 +27,7 @@ namespace ConsoleAppTest
             Console.WriteLine("Base");
         }
 
-        public new void Metod2()
+        public void Metod2()
         {
             Console.WriteLine("Base");
         }
