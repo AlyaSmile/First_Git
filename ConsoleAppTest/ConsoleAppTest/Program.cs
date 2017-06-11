@@ -20,6 +20,8 @@ namespace ConsoleAppTest
             return -1;
         }
 
+        
+
         // Еще тест - чтение параметров другим способом
         static int Main()
         {
@@ -28,10 +30,41 @@ namespace ConsoleAppTest
             string[] args = Environment.GetCommandLineArgs();
             foreach (string arg in args)
                 Console.WriteLine($"Arg {arg}");
+
+            ShowEnviromantDetails();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine($"Введите своё имя:");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Введите фамилию:");
+            var last_name = Console.ReadLine();
+            Console.WriteLine($"введите возраст:");
+            string old = Console.ReadLine();
+            decimal Old = 0;
+            try
+            {
+                 Old = Convert.ToDecimal(old);
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Ввели хуйню");
+            }
+            Console.WriteLine($"Привет, {last_name} {name}, тебе {Old:n2} лет");
             Console.ReadLine();
             return -1;
         }
 
+        static void ShowEnviromantDetails()
+        {
+            //Console.Beep(500, 1000);
+            Console.WriteLine(string.Join(Environment.NewLine + "Drive: " , Environment.GetLogicalDrives()));
+            Console.WriteLine(Environment.NewLine + "Name machine: {0}", Environment.MachineName );
+            Console.WriteLine("OSVersion: {0}", Environment.OSVersion .VersionString );
+            Console.WriteLine("UserDomainName: {0}", Environment.UserDomainName );
+            Console.WriteLine(".NET Version: {0}", Environment.Version );
+        }
 
         static void CastObj()
         {
