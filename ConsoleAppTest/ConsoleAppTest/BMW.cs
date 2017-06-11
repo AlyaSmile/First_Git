@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleAppTest
 {
-    public class BMV : Car
+    public class BMW : Car
     {
         public override string Color { get; set; }
         public override string Name { get;set; }
@@ -14,5 +14,8 @@ namespace ConsoleAppTest
         {
             Console.WriteLine($"{Name}, {Color}");
         }
+
+        static void Main()
+        { }
     }
 }
