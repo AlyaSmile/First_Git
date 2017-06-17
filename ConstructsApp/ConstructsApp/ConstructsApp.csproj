@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="FunWithArray.cs" />
     <Compile Include="FunWithEnum.cs" />
-    <Compile Include="FunWithStruct.cs" />
+    <Compile Include="RefType.cs" />
     <Compile Include="Params.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

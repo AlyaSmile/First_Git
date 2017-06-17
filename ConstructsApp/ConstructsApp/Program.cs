@@ -13,7 +13,8 @@ namespace ConstructsApp
             //Params.ParametersModifiers();
             //FunWithArray.ArrayInitialization();
             //FunWithArray.ArrayOfObjects();
-            FunWithEnum.FunEnum();
+            // FunWithEnum.FunEnum();
+            Person.PersonMain();
 
         }
     }
