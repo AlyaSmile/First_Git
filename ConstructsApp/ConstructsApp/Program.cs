@@ -12,6 +12,7 @@ namespace ConstructsApp
         {
             //Params.ParametersModifiers();
             FunWithArray.ArrayInitialization();
+            FunWithArray.ArrayOfObjects();
         }
     }
 }

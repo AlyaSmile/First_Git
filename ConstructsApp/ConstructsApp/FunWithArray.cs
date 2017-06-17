@@ -47,5 +47,22 @@ namespace ConstructsApp
             Console.ReadLine();
 
         }
+
+        public static void ArrayOfObjects()
+        {
+            Console.WriteLine("=> Array of Objects.");
+            // An array of objects can be anything at all.
+            object[] myObjects = new object[4];
+            myObjects[0] = 10;
+            myObjects[1] = false;
+            myObjects[2] = new DateTime(1969, 3, 24);
+            myObjects[3] = "Form & Void";
+            foreach (object obj in myObjects)
+            {
+                // Print the type and value for each item in array.
+                Console.WriteLine("Type: {0}, Value: {1}", obj.GetType(), obj);
+            }
+            Console.WriteLine();
+        }
     }
 }
