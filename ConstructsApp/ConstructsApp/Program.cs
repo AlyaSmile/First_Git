@@ -10,8 +10,8 @@ namespace ConstructsApp
     {
         static void Main(string[] args)
         {
-            Params.ParametersModifiers();
-            
+            //Params.ParametersModifiers();
+            FunWithArray.ArrayInitialization();
         }
     }
 }
