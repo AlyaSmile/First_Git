@@ -11,8 +11,10 @@ namespace ConstructsApp
         static void Main(string[] args)
         {
             //Params.ParametersModifiers();
-            FunWithArray.ArrayInitialization();
-            FunWithArray.ArrayOfObjects();
+            //FunWithArray.ArrayInitialization();
+            //FunWithArray.ArrayOfObjects();
+            FunWithEnum.FunEnum();
+
         }
     }
 }
