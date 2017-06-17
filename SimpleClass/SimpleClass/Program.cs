@@ -10,8 +10,21 @@ namespace SimpleClass
     {
         static void Main(string[] args)
         {
-            var B = new ClassB(); // иллюстрирует порядок выполнения обычного и статического конструкторов
+            var разделитель = "--------------------------------------------\n";
+            Console.WriteLine(разделитель + "Конструкторы класса");
+            ClassCtor();
+            Console.WriteLine(разделитель + "Работа со статическими полями");
             Program.StaticData();
+            Console.WriteLine(разделитель + "Порядок выполнения статического и обычного конструктора");
+            var B = new ClassB(); // иллюстрирует порядок выполнения обычного и статического конструкторов
+            Console.WriteLine(разделитель + "Работа со статичсеким классом UtilityClass");
+            UtilityClass.PrintDate();
+            UtilityClass.PrintTime();
+            Console.WriteLine(разделитель + "Просто использование static для импорта Math. Делаю модуль умножить на два");
+            int f = -234;
+            int g = StaticUsingClass.МодульНаДва(f);
+            Console.WriteLine($"Входное значение {f}, выходное {g}");
+            Console.ReadLine();
         }
         
 
@@ -40,13 +53,14 @@ namespace SimpleClass
             SavingsAccount s4 = new SavingsAccount(4000.00);
             Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
 
-            Console.ReadLine();
+           
        
         }
 
         // ДЛя рассмотрения конструкторов
         static void ClassCtor()
         {
+            Console.WriteLine("--------------------------------------------\n");
             Console.WriteLine("***** Fun with Class Types *****\n");
             // Allocate and configure a Car object.
             Car myCar = new Car();
@@ -61,8 +75,10 @@ namespace SimpleClass
                 myCar.SpeedUp(5);
                 myCar.PrintInfo();
             }
-            Console.ReadLine();
-            Console.WriteLine("По умолчанию в конструкторе устанавливается Просто 40\n в перегруженном, специальном, скорость 60, опциональна");
+            Console.WriteLine("--------------------------------------------\n");
+            Console.WriteLine("\nСмотрим стандартный и перегруженный конструктор\n");
+
+           Console.WriteLine("По умолчанию в конструкторе устанавливается Просто 40\n в перегруженном, специальном, скорость 60, опциональна");
             Console.WriteLine("Стандартный");
             Car TCar = new Car();
             TCar.PrintInfo();
@@ -72,7 +88,6 @@ namespace SimpleClass
             Console.WriteLine("Специальный с именем Мерин и скорость 150");
             Car GCar = new Car(MyCarName: "Мерин", MyCarSpeed: 150);
             GCar.PrintInfo();
-            Console.ReadLine();
 
         }
     }
