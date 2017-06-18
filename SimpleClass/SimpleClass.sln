@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClass", "SimpleClass\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropConsoleApp", "PropConsoleApp\PropConsoleApp.csproj", "{F9DDD5B5-BF31-48CF-A873-8F51F3EEADC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{31E13317-84FB-47EA-8106-2BC35C6B23CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F9DDD5B5-BF31-48CF-A873-8F51F3EEADC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DDD5B5-BF31-48CF-A873-8F51F3EEADC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DDD5B5-BF31-48CF-A873-8F51F3EEADC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E13317-84FB-47EA-8106-2BC35C6B23CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E13317-84FB-47EA-8106-2BC35C6B23CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E13317-84FB-47EA-8106-2BC35C6B23CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E13317-84FB-47EA-8106-2BC35C6B23CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
