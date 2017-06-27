@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{189349B7-CBDF-4D35-9681-C942959E90A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{189349B7-CBDF-4D35-9681-C942959E90A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageFeatures", "LanguageFeatures\src\LanguageFeatures\LanguageFeatures.csproj", "{8BC4F7EB-8D10-4F1A-8462-D23C47E84230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{D8546A76-D7FB-49CB-9806-A7EACF48CB00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{189349B7-CBDF-4D35-9681-C942959E90A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{189349B7-CBDF-4D35-9681-C942959E90A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{189349B7-CBDF-4D35-9681-C942959E90A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC4F7EB-8D10-4F1A-8462-D23C47E84230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC4F7EB-8D10-4F1A-8462-D23C47E84230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC4F7EB-8D10-4F1A-8462-D23C47E84230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC4F7EB-8D10-4F1A-8462-D23C47E84230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8546A76-D7FB-49CB-9806-A7EACF48CB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8546A76-D7FB-49CB-9806-A7EACF48CB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8546A76-D7FB-49CB-9806-A7EACF48CB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8546A76-D7FB-49CB-9806-A7EACF48CB00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
